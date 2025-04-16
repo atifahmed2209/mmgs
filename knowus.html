@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Known Us | Master Minds Global School</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5faff;
+      color: #333;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Background Shapes (Optional - reuse across pages) */
+    .shape {
+      position: absolute;
+      z-index: -1;
+      opacity: 0.08;
+      pointer-events: none;
+    }
+
+    .shape.circle {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      background: #0072ff;
+    }
+
+    .shape.square {
+      width: 300px;
+      height: 300px;
+      background: #ff8c00;
+      transform: rotate(15deg);
+    }
+
+    .shape.top-left {
+      top: -100px;
+      left: -100px;
+    }
+
+    .shape.bottom-right {
+      bottom: -150px;
+      right: -150px;
+    }
+
+    /* Header */
+    header {
+      background-color: #4fa1a7;
+      color: white;
+      padding: 0.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+    }
+
+    .logo {
+      height: 80px;
+      width: 80px;
+      border-radius: 10%;
+    }
+
+    nav {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /* Section */
+    .container {
+      max-width: 1000px;
+      margin: 80px auto;
+      background: rgba(255,255,255,0.95);
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #004080;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #444;
+      text-align: justify;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background-color: #2c3e50;
+      color: white;
+      margin-top: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Shapes -->
+  <div class="shape circle top-left"></div>
+  <div class="shape square bottom-right"></div>
+
+  <!-- Header -->
+  <header>
+    <div><img class="logo" src="logo.jpg" alt="School Logo"></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="knowus.html">Know Us</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="#blogs">Blogs</a>
+        <a href="reachus.html">Reach Us</a>
+        <a href="careers.html">Careers</a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <div class="container">
+    <h1>Get to Know Us</h1>
+    <p>
+      Master Minds Global School is more than just an institution — it is a vibrant learning space where curiosity meets excellence. Founded with the vision to provide quality education in an inspiring environment, the school stands as a symbol of growth, innovation, and holistic development.<br><br>
+
+      Our philosophy revolves around nurturing young minds through a balanced blend of academics, values, and co-curricular activities. We believe every child has the potential to shine and strive to create opportunities that allow them to discover and express their unique talents.<br><br>
+
+      With well-qualified educators, interactive classrooms, and a curriculum that fosters critical thinking, creativity, and compassion, we are committed to building strong foundations that last a lifetime. Whether it's Brain Gym, activity-based learning, or personalized attention, every initiative is designed to help your child thrive.<br><br>
+
+      Join us on this wonderful journey of learning, leading, and growing together — the Master Minds way!
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Master Minds Global School. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
